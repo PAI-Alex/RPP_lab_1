@@ -18,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
     String[]forms ={"тысячa","тысячи" , "тысяч"};
 
    // String[] Num = new String[100000];
-    String[] names = { "Иван", "Марья", "Петр", "Антон", "Даша", "Борис",
-            "Костя", "Игорь", "Анна", "Денис", "Андрей" };
+   
     final String LOG_TAG = "myLogs";
     final String LOG_TAG_1 = "число";
 
