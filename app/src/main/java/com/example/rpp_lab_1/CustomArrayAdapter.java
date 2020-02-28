@@ -27,7 +27,6 @@ public class CustomArrayAdapter extends ArrayAdapter<String> {
         TextView textView = (TextView) view.findViewById(R.id.colors);
         LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.llColors);
         textView.setText(stringValues[position]);
-       // String s = stringValues[position];
 
         if( position%2==0){
             linearLayout.setBackgroundResource(R.color.white);
